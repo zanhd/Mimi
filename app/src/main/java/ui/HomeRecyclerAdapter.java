@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
 import com.zanhd.mimi.R;
 
 import java.util.List;
@@ -29,7 +30,7 @@ public class HomeRecyclerAdapter extends RecyclerView.Adapter<HomeRecyclerAdapte
     @NonNull
     @Override
     public HomeRecyclerAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.meme_row,viewGroup,false);
+        View view = LayoutInflater.from(context).inflate(R.layout.meme_row, viewGroup,false);
         return new ViewHolder(view,context);
     }
 
@@ -39,8 +40,15 @@ public class HomeRecyclerAdapter extends RecyclerView.Adapter<HomeRecyclerAdapte
         User user = userList.get(position);
         String imageUrl;
 
-       // viewHolder.usernameTextView.setText(user.);
+        viewHolder.usernameTextView.setText(user.getUsername());
 
+        imageUrl = user.getImageUrl();
+
+        Picasso.get()
+                .load(imageUrl)
+                .placeholder(R.drawable.example_image) //in case there is no image this default image will show
+                .fit()
+                .into(viewHolder.memeImageView);
     }
 
     @Override

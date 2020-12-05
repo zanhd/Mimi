@@ -127,6 +127,9 @@ public class PostNewMemeActivity extends AppCompatActivity implements View.OnCli
                                             User user = new User();
                                             user.setUserId(UserApi.getInstance().getUserId());
                                             user.setImageUrl(imageUrl);
+                                            user.setUsername(UserApi.getInstance().getUsername());
+                                            user.setName(UserApi.getInstance().getName());
+                                            user.setEmail(UserApi.getInstance().getEmail());
 
                                             collectionReference.add(user)
                                                     .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {

@@ -19,9 +19,10 @@
 
     <ImageView
         android:id="@+id/meme_row_meme_imageView"
+        android:layout_margin="10dp"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:src="@drawable/example_image"
+        android:layout_height="450dp"
+        tools:srcCompat = "@drawable/example_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
