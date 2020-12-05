@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo_image" />
+
+    <TextView
+        android:id="@+id/head_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_image"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/aclonica"
+        android:paddingTop="30dp"
+        android:text="@string/mimi"
+        android:textColor="#f1c27d"
+        android:textSize="70sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/below_head_text"
+        android:layout_below="@+id/head_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="@string/a_meme_sharing_platform"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:textColor="#f1c27d"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/creater_text"
+        android:layout_below="@+id/below_head_text"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:fontFamily="cursive"
+        android:text="@string/creater_zanhd" />
+
+
+</RelativeLayout>

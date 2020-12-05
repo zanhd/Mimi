@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Mimi</string>
+    <string name="mimi">" Mimi "</string>
+    <string name="creater_zanhd">creater : Zanhd</string>
+    <string name="a_meme_sharing_platform">A Meme Sharing Platform</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Create an account</string>
+    <string name="or">Or</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="email_address">Email</string>
+    <string name="log_in_account">Log In Account</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="add_meme">Add Meme</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="post">Post</string>
+    <string name="username">Username</string>
+    <string name="signout">Signout</string>
+    <string name="name">Name</string>
+</resources>

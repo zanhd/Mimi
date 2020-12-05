@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "889729957516",
+    "firebase_url": "https://mimi-37ad9.firebaseio.com",
+    "project_id": "mimi-37ad9",
+    "storage_bucket": "mimi-37ad9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889729957516:android:ac8a822a56db982f47c5a9",
+        "android_client_info": {
+          "package_name": "com.zanhd.mimi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889729957516-r43o13s41pv9s1ue249jihedt79qc3di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC_BTgR9tHZf-hikj-tJt2WMNdhLio-I0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889729957516-r43o13s41pv9s1ue249jihedt79qc3di.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
